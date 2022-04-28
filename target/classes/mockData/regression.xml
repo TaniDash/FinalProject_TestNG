@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="regression">
+	<test name="regression">
+
+		<parameter name="categoryName" value="myTest" />
+
+		<classes>
+			<class name="test.CreateCategoryTest" /> 
+			<class name="test.MonthDropDownTest"/> 
+			<class name="test.DuplicateCategoryTest" />
+		</classes>
+
+
+	</test>
+
+</suite>

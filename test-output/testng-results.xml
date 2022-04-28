@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="regression" duration-ms="7394" started-at="2022-04-28T22:19:48Z" finished-at="2022-04-28T22:19:55Z">
+    <groups>
+    </groups>
+    <test name="regression" duration-ms="7394" started-at="2022-04-28T22:19:48Z" finished-at="2022-04-28T22:19:55Z">
+      <class name="test.CreateCategoryTest">
+        <test-method status="PASS" signature="userShouldBeAbleToAddCategory(java.lang.String)[pri:0, instance:test.CreateCategoryTest@1593948d]" name="userShouldBeAbleToAddCategory" duration-ms="3075" started-at="2022-04-28T22:19:48Z" finished-at="2022-04-28T22:19:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[myTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToAddCategory -->
+      </class> <!-- test.CreateCategoryTest -->
+      <class name="test.MonthDropDownTest">
+        <test-method status="PASS" signature="userShouldBeAbleToValidateMonthsDropdown()[pri:2, instance:test.MonthDropDownTest@1b604f19]" name="userShouldBeAbleToValidateMonthsDropdown" duration-ms="2180" started-at="2022-04-28T22:19:53Z" finished-at="2022-04-28T22:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToValidateMonthsDropdown -->
+      </class> <!-- test.MonthDropDownTest -->
+      <class name="test.DuplicateCategoryTest">
+        <test-method status="PASS" signature="userShouldNotBeAbleToAddDuplicateCategory(java.lang.String)[pri:1, instance:test.DuplicateCategoryTest@7823a2f9]" name="userShouldNotBeAbleToAddDuplicateCategory" duration-ms="2116" started-at="2022-04-28T22:19:51Z" finished-at="2022-04-28T22:19:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[myTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldNotBeAbleToAddDuplicateCategory -->
+      </class> <!-- test.DuplicateCategoryTest -->
+    </test> <!-- regression -->
+  </suite> <!-- regression -->
+</testng-results>

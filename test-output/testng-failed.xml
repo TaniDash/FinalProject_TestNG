@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [regression]">
+  <test thread-count="5" name="regression(failed)">
+    <parameter name="categoryName" value="myTest"/>
+    <classes>
+      <class name="test.DuplicateCategoryTest">
+        <methods>
+          <include name="userShouldNotBeAbleToAddDuplicateCategory" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.DuplicateCategoryTest -->
+    </classes>
+  </test> <!-- regression(failed) -->
+</suite> <!-- Failed suite [regression] -->
